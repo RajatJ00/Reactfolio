@@ -1,5 +1,3 @@
-import Carousel from "../Carousel/carousel.components"
-
 function Titles() {
     return (
         <>
@@ -52,7 +50,6 @@ function Titles() {
                     </div>
                 </div>
             </div>
-            <Carousel />
         </>
     )
 }

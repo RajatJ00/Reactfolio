@@ -23,7 +23,7 @@ function ProfilePic() {
               <a className="transition ease-in-out hover:-translate-y-5 hover:scale-150 hover:text-cyan-400 border-2 border-black rounded-full duration-300 p-2" href="mailto:rajatjamgade00@outlook.com" title="rajatjamgade00@outlook.com">
                 <PiMicrosoftOutlookLogoFill className="w-5 h-fit" /></a>
             </div>
-            <a id="download" href='Rajat.pdf' download="Rajat_Jamgade_Resume.pdf" className="w-fit bg-gradient-to-r from-cyan-500 to-black hover:bg-gradient-to-l hover:cursor-pointer shadow-inner shadow-black rounded-xl text-cyan-100 text-xl flex py-2 px-4 gap-2"><FaDownload className="w-6 h-fit mt-1" />Download Resume</a>
+            <a id="download" href='Rajat.pdf' download="Rajat_Jamgade_Resume.pdf" className="w-fit bg-gradient-to-r from-cyan-500 to-black hover:bg-gradient-to-l hover:cursor-pointer shadow-inner shadow-black rounded-xl text-cyan-100 text-xl flex py-2 px-4 gap-2"><FaDownload className="w-6 h-fit mt-1" />Resume</a>
           </div>
         </div>
       </div>
