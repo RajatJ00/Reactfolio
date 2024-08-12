@@ -1,8 +1,8 @@
-import { FaGithub, FaGoogle, FaLinkedin } from "react-icons/fa";
+import { FaGoogle, FaLinkedin } from "react-icons/fa";
 import { PiMicrosoftOutlookLogoFill } from "react-icons/pi";
 import Logos from "./Logos.components";
 
-function SocialMedia_Accounts() {
+function SocialMedia() {
     return (
         <>
 
@@ -19,4 +19,4 @@ function SocialMedia_Accounts() {
             </div></>
     )
 }
-export default SocialMedia_Accounts;
+export default SocialMedia;
