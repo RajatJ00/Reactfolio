@@ -2,7 +2,7 @@ import { FaLink } from "react-icons/fa";
 
 function ProjectInfo() {
     return (
-        <div className="h-[360px] hover:h-fit cursor-pointer bg-white/10 shadow-black shadow-inner rounded-xl hover:text-black text-neutral-50 hover:bg-white/20 text-lg transition duration-500 overflow-hidden group">
+        <div className="h-[360px] hover:h-fit cursor-pointer shadow-black shadow-inner hover:text-black text-neutral-50 text-lg overflow-hidden group rounded-xl bg-white/10 hover:bg-white/[0.14] backdrop-blur-sm transition duration-300 ease-in-out">
             <div>
                 <h1 className="flex items-center justify-between mx-5 px-2 pt-[6px] pb-1 font-bold uppercase bg-white/20 rounded-b-xl">Myshow
                     <a title="MyShow-Vercel" href="https://my-show-rj.vercel.app/" className="text-neutral-50 hover:text-white/40"><FaLink className="w-5 h-5" /></a>

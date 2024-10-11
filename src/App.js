@@ -1,12 +1,12 @@
 import ProfilePic from './components/ProfilePic/profilepic.components';
-import Titles from './components/Titles/titles.components';
+import Sections from './components/Sections/sections.components';
 import Projects from "./components/Projects/projects.components"
 
 function App() {
   return (
     <>
       <ProfilePic />
-      <Titles />
+      <Sections />
       <Projects />
     </>
   );

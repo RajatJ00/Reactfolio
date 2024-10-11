@@ -45,7 +45,7 @@ export default class asNavFor extends Component {
     }
     return (
       <div className="block px-10">
-        <div className="rounded-xl bg-white/25 backdrop-blur-sm select-none">
+        <div className=" rounded-xl bg-white/10 hover:bg-white/[0.14] backdrop-blur-sm transition duration-300 ease-in-out">
           <h1 className="w-fit bg-gradient-to-br from-cyan-500 to-black border-b rounded-b-xl text-black hover:text-neutral-50 flex gap-2 px-6 py-2 text-base font-medium uppercase mx-5 transition duration-150">Projects</h1>
           <Slider className="text-gray-100 mt-6 mx-80"
             asNavFor={this.state.nav2}
@@ -55,7 +55,7 @@ export default class asNavFor extends Component {
             fade={true}>
             {/* PROJECT DESC */}
             <ProjectInfo />
-            <div className="h-[360px] hover:h-fit cursor-pointer bg-white/10 shadow-black shadow-inner rounded-xl hover:text-black text-neutral-50 hover:bg-white/20 text-lg transition duration-500 overflow-hidden group">
+            <div className="h-[360px] hover:h-fit cursor-pointer shadow-black shadow-inner hover:text-black text-neutral-50 text-lg overflow-hidden group  rounded-xl bg-white/10 hover:bg-white/[0.14] backdrop-blur-sm transition duration-300 ease-in-out">
               <div>
                 <h1 className="flex items-center justify-between mx-5 px-2 pt-[6px] pb-1 font-bold uppercase bg-white/20 rounded-b-xl">Space Tourism
                   <a title="MyShow-Vercel" href="https://space-tourism-rj.vercel.app/" className="text-neutral-50 hover:text-white/40"><FaLink className="w-5 h-5" /></a>

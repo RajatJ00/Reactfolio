@@ -1,20 +1,19 @@
 import Intro from "./Components/introduction.components";
 import SocialMedia from "./Components/Accounts/socialmedia.components";
 import ResumeButton from "./Components/resume.components";
-import Background from "./Components/Background.components";
+import Photo from "./Components/Photo.components";
 
 function ProfilePic() {
   return (
     <>
       <div className="flex pt-16 pb-3 gap-4 w-full px-14">
         {/* IMAGES */}
-        <div className="w-1/5 px-6 select-none">
-          <Background />
-          <img src="logo.png" className="relative w-fit rounded-3xl" alt="Profile-pic" />
+        <div className="w-[25%] px-6 relative overflow-hidden">
+          <Photo />
         </div>
 
-        <div className="ms-20 w-3/4 h-fit rounded-xl bg-white/25 backdrop-blur-sm">
-          <div className="w-fit h-full p-5 font-bold">
+        <div className="ms-20 w-[55%] h-fit rounded-xl bg-white/10 hover:bg-white/[0.14] backdrop-blur-sm transition duration-300 ease-in-out">
+          <div className="w-fit h-full px-5 pt-5 font-semibold">
 
             <Intro />
             <SocialMedia />
