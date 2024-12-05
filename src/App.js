@@ -1,11 +1,11 @@
-import ProfilePic from './components/ProfilePic/profilepic.components';
-import Sections from './components/Sections/sections.components';
-import Projects from "./components/Projects/projects.components"
+import Profile from './Main/Profile/Profile';
+import Sections from './Main/Sections/sections.components';
+import Projects from "./Main/Projects/projects.components"
 
 function App() {
   return (
     <>
-      <ProfilePic />
+      <Profile />
       <Sections />
       <Projects />
     </>
