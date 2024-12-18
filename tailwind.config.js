@@ -3,8 +3,12 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      'Intro': ['Tourney', 'sans-serif'],
       'Name': ['Source Code Pro', 'monospace'],
+    },
+    screens:{
+      's_phone': '360px',
+      'md': '768px',
+      'lg': '1024px',
     },
     extend: {
       colors: {

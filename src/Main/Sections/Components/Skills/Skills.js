@@ -6,7 +6,7 @@ import SkillsData from "./skillsdata";
 function Skills() {
     return (
         <>
-            <div className="w-fit px-3 rounded-xl bg-white/5 hover:bg-white/[0.08] backdrop-blur-sm transition duration-300 ease-in-out">
+            <div className="w-fit rounded-xl hover:bg-white/[0.02] backdrop-blur-sm transition duration-300 ease-in-out group">
 
                 <Section title="Skills" />
                 

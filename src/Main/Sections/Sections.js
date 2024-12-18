@@ -2,10 +2,10 @@ import Certificates from "./Components/Certificates/Certificates";
 import Experiences from "./Components/Experiences/Experiences";
 import Skills from "./Components/Skills/Skills";
 
-function Titles() {
+function Sections() {
     return (
         <>
-            <div className="cursor-default flex md:flex-none justify-center items-center py-3 gap-7 text-md px-5 m-10">
+            <div className="cursor-default flex lg:flex-row s_phone:flex-col justify-center items-center py-3 gap-5 text-md px-5 lg:m-10 s_phone:m-2">
 
                 <Skills/>
                 <Experiences/>
@@ -14,4 +14,4 @@ function Titles() {
         </>
     )
 }
-export default Titles;
+export default Sections;

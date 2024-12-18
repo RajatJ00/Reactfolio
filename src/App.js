@@ -1,6 +1,6 @@
 import Profile from './Main/Profile/Profile';
-import Sections from './Main/Sections/sections.components';
-import Projects from "./Main/Projects/projects.components"
+import Sections from './Main/Sections/Sections';
+import Projects from "./Main/Projects/Projects"
 
 function App() {
   return (
