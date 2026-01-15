@@ -8,7 +8,7 @@ function Intro() {
             <div className="absolute top-0 group">
                 <Section title="Hi, I'm" />
             </div>
-            <h1 className='w-fit py-1.5 mt-10 lg:text-5xl s_phone:text-2xl transition duration-300 font-semibold text-transparent bg-gradient-to-r from-red-600 to-blue-700 bg-clip-text font-Name'>
+            <h1 className='w-fit py-1.5 mt-10 lg:text-5xl s_phone:text-3xl transition duration-300 font-bold text-transparent bg-gradient-to-r from-title1 bg-clip-text font-Name'>
                 <Typewriter
                     options={{
                         strings: ['Rajat Jamgade', 'Frontend Developer', 'Web Developer', 'MERN Stack Developer'],

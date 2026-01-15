@@ -15,7 +15,7 @@ function ProfilePic() {
         <div className="lg:mr-24 lg:px-12 pt-5 lg:w-[57%] lg:h-fit s_phone:w-[63%] s_phone:h-72 s_phone:px-6 rounded-xl hover:bg-white/[0.02] backdrop-blur-sm transition duration-300 ease-in-out group">
 
           <Intro />
-          <div>
+          <div className=" absolute bottom-0">
             <SocialMedia />
             <ResumeButton />
           </div>

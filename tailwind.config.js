@@ -12,7 +12,10 @@ module.exports = {
     },
     extend: {
       colors: {
-
+        title1: '#CCFFFF',
+        title2: '#34274E',
+        color1: '#E2F3F4',
+        color2: '#6DC7D1',
       },
       keyframes: {
         ping: {
