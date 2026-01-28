@@ -22,9 +22,9 @@ const ProjectsData = [
         github: "https://github.com/RajatJ00/AyurvedaApp",
     },
     {
-        title: "Coaching Class Management System",
+        title: "CCMS",
         image: "/Img/ccms.png",
-        skills: "dotNET",
+        skills: "dotNET - Coaching Class Management System",
         live: "",
         github: "https://github.com/RajatJ00/CCMS",
     },
